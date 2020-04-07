@@ -1,10 +1,16 @@
 # Rad-Libs
-
-
-Testing push
-
---enter--
+Sorry this has not been webpacked well, to install and run do the following from root repo
 
 npm install wordpos-web
+npm install
 
---in console before running to get word search feature to work correctly.
+
+--then go into the RadLibAPI directory and type--
+
+yarn install
+rails db:migrate
+rails db:seed
+rails s
+
+open index.html
+
