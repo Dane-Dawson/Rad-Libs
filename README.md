@@ -3,6 +3,9 @@ Sorry this has not been webpacked well, to install and run do the following from
 
 npm install wordpos-web
 npm install
+open index.html
+
+--currently index.html will not be fully rendered until following stages--
 
 
 --then go into the RadLibAPI directory and type--
@@ -13,6 +16,5 @@ rails db:seed
 rails s
 
 
---and back in main repo--
-open index.html
+
 
